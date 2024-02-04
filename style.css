@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.background-container{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/chatbg.png");
+    background-position: center;
+    
+
+    max-width: 450px;
+    max-height: 633px;
+    background-size: cover;
+    color: #ffffff;
+    font-weight: 200;
+    
+    
+    
+
+}
+
+.heading{
+    max-width: 450px;
+}
+.chatpage{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+   
+
+
+}
+
+h1{
+    text-align: center;
+    background-color: #323f4b;
+    padding: 8px;
+}
+
+.box1{
+    background-color: #47a3f3;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    text-align: end;
+    margin-left: 5px;
+    margin-right: 5px;
+    max-width: 450px;
+
+
+
+}
+
+.box2{
+    background-color: #52606d;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    max-width: 450px;
+
+
+}
